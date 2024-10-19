@@ -2,7 +2,7 @@
 
  Welcome to the Nautilus Swim Academy Website.
 
- The Nuatilus Swim Academy is a landing page for people (parents & childern) who have a desire to learn to swim, improve their swimming technique, get healthy & improve fitness or to overcome their fear of water. 
+ The Nautilus Swim Academy is a landing page for people (parents & childern) who have a desire to learn to swim, improve their swimming technique, get healthy & improve fitness or to overcome their fear of water. 
 
  Users of this website will be able to find information to: 
 
