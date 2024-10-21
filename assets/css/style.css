@@ -1,7 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Asterisk wildcard selector to override default styles aded by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -14,17 +14,63 @@ body {
 
 /* Header */
 header {
-    background-color: #333333;
+    background-color: #222831;
+    z-index: 80;
+    position: absolute;
+    width: 100%;
+    padding: 2px;
+    color: #ffffff;
+}
+
+#pages {
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#pages a {
+    display: block;
+    margin: 2px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+
+}
+
+#logo {
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+/* Navigation */
+
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+a {
+    padding: 1px;
+    margin: 1px;
 }
 
 /* Main Content */
 main {
     background-color: #9FC5F8;
+    min-height: 100vh;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
 /* Footer */
 footer {
     background-color: #333333;
-    
 }
+
