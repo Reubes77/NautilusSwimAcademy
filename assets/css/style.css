@@ -18,14 +18,13 @@ body {
     color: #9FC5F8;
 }
 
-h1,
-h2 {
+h1, h2, h4 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     letter-spacing: 2px;
 }
 
-/* Header */
+/* Header section*/
 header {
     background-color: #222831;
     position: fixed;
@@ -34,7 +33,7 @@ header {
     color: #ffffff;
     align-items: baseline;
     justify-content: space-between;
-    
+    top: 0;
 }
 
 header a {
@@ -63,12 +62,11 @@ header a {
     text-decoration: none;
 }
 
-/* Navigation */
+/* Navigation section*/
 nav {
     list-style-type: none;
     margin: 5px;
     padding: 5px;
-
 }
 
 a {
@@ -76,19 +74,24 @@ a {
     margin: 1px;
 }
 
-/* Main Content */
+/* Main Content section */
 main {
     background-color: #9FC5F8;
     min-height: 100vh;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    margin-top: 100px;
+    
 }
 
 
-/* Footer */
+/* Footer section */
 footer {
     background-color: #333333;
+    padding: 20px;
+
 }
 
 /* Media query: tablets and larger (768px and up) */
