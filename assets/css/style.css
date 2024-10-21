@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -8,18 +9,29 @@
     box-sizing: border-box;
 }
 
+/* General page styles */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #9FC5F8;
 }
 
 /* Header */
 header {
     background-color: #222831;
-    z-index: 80;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    padding: 2px;
+    padding: 0 1em;
     color: #ffffff;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #pages {
@@ -33,10 +45,11 @@ header {
     margin: 2px;
 }
 
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-
+    
 }
 
 #logo {
@@ -45,9 +58,8 @@ h1 {
 }
 
 
+
 /* Navigation */
-
-
 ul {
     list-style-type: none;
     margin: 5px;
