@@ -18,14 +18,22 @@ body {
     color: #9FC5F8;
 }
 
-h1 {
+h2 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 20px 15px 25px;
 }
 
-h2,
 h3 {
+    padding: 20px 20px 15px 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h4 {
     padding: 20px 20px 15px 25px;
     color: #ffffff;
     text-transform: uppercase;
@@ -138,6 +146,11 @@ main {
     height: 500px;
 }
 
+/* Benefits section */
+#benefits hr {
+    margin: 3px 0;
+    border-top: 1px solid #333333;
+}
 
 /* Footer section */
 footer {
