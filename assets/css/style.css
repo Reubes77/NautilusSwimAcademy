@@ -18,10 +18,24 @@ body {
     color: #9FC5F8;
 }
 
-h1, h2, h4 {
+h1 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     letter-spacing: 2px;
+}
+
+h2, h3 {
+    padding: 25px 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff;
+    align-items: center;
+    font-size: large;
+    padding: 0 25px 25px;
 }
 
 /* Header section*/
@@ -82,7 +96,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-top: 100px;
+    margin-top: 90vh;
     
 }
 
