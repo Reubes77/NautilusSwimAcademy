@@ -40,6 +40,12 @@ h4 {
     letter-spacing: 1px;
 }
 
+h5 {
+    color: #999999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 p {
     font-family: 'Manrope', sans-serif;
     color: #ffffff;
@@ -152,10 +158,46 @@ main {
     border-top: 1px solid #333333;
 }
 
+.container-safety {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #6FA8DC;
+}
+
+.container-safety div {
+    width: 30%;
+}
+
+.container-children {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #6FA8DC;
+}
+
+.container-children div {
+    width: 30%;
+}
+
 /* Footer section */
 footer {
     background-color: #333333;
     padding: 20px;
+    color: #999999;
+}
+
+#social-media {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
+#social-media i {
+    color: #999999;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 140%;
+    text-align: center;
 }
 
 /* Media query: tablets and larger (768px and up) */
