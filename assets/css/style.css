@@ -26,19 +26,19 @@ h2 {
     padding: 20px 20px 15px 25px;
 }
 
-h3 {
+h3, h4 {
     padding: 20px 20px 15px 25px;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-h4 {
+/* h4 {
     padding: 20px 20px 15px 25px;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
+} */
 
 h5 {
     color: #999999;
@@ -158,47 +158,40 @@ main {
     border-top: 1px solid #333333;
 }
 
-.container-safety {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+.container {
     background-color: #6FA8DC;
-}
-
-.container-safety div {
-    width: 30%;
-}
-
-.container-children {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    background-color: #6FA8DC;
-}
-
-.container-children div {
-    width: 30%;
 }
 
 /* Footer section */
 footer {
     background-color: #333333;
-    padding: 20px;
+    padding: 50px;
     color: #999999;
+    text-align: left;
+    width: 100%;
 }
 
-#social-media {
+/* #social-media {
     list-style-type: none;
     display: flex;
     text-align: center;
+} */
+
+.social-media i {
+    color: #999999;
+    font-size: 140%;
 }
 
-#social-media i {
-    color: #999999;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
-    font-size: 140%;
-    text-align: center;
+.social-media a {
+    padding: 10px;
 }
+
+
+
+/* #social-media h4 {
+    color: #999999;
+    text-align: left;
+} */
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -262,6 +255,35 @@ header > ul > li {
 
 header label {
     display: none;
+}
+
+/* Main section */
+.reasons {
+    padding: 20px 100px 20px 100px;
+}
+
+.container {
+    padding: 0 100px 0 100px;
+}
+
+/* Footer section */
+.social-media i {
+    color: #999999;
+    font-size: 140%;
+}
+
+.social-media a {
+    padding: 10px;
+}
+
+#copyright {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#copyright i {
+    align-items: baseline;
 }
 
 }
