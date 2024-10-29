@@ -296,9 +296,8 @@ nav ul li a:hover {
 }
 
 span {
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
     font-family: 'Manrope', sans-serif;
-    /*color: #ffffff;*/
     font-size: large;
 }
 
@@ -430,7 +429,11 @@ footer {
 }
 
 #footer-container {
-    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Media query: larger and landscape phones (576px and up) */
@@ -525,7 +528,7 @@ footer {
             margin: 10px 40px;
             text-align: center;
         }
-        
+
         .second-containers {
             display: flex;
             flex-direction: row;
@@ -534,7 +537,7 @@ footer {
             margin: 10px 40px;
             text-align: center;
         }
-        
+
         .third-containers {
             display: flex;
             flex-direction: row;
@@ -543,7 +546,7 @@ footer {
             margin: 10px 40px;
             text-align: center;
         }
-        
+
         .benefits-one {
             list-style-type: none;
             margin: 10px;
@@ -650,9 +653,12 @@ footer {
         }
 
         /* Footer section */
-        /*.footer-container {
-    padding-top: 100%;
-}*/
+        #footer-container {
+            margin: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
 
         .social-media i {
             color: #999999;
