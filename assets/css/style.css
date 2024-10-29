@@ -29,7 +29,8 @@ h2 {
     text-align: center;
 }
 
-h3, h4 {
+h3,
+h4 {
     padding: 20px 20px 15px 25px;
     color: #ffffff;
     text-transform: uppercase;
@@ -47,7 +48,7 @@ p {
     font-family: 'Manrope', sans-serif;
     color: #ffffff;
     font-size: large;
-    /*padding: 0 25px 25px;*/
+    /*margin: 30px;*/
     display: flex;
     justify-content: center;
     text-align: center;
@@ -60,7 +61,8 @@ header {
     width: 100%;
     padding: 0 1em;
     color: #ffffff;
-    display: flex; /* required for align-items and justify-content */
+    display: flex;
+    /* required for align-items and justify-content */
     align-items: baseline;
     justify-content: space-between;
     top: 0;
@@ -140,7 +142,7 @@ nav ul li a:hover {
 
 /* Main Content section */
 .main {
-    background-color: #9FC5F8;
+    background-color: #085394;
     min-height: 100vh;
     flex: 1 0 auto;
     display: flex;
@@ -158,14 +160,63 @@ nav ul li a:hover {
     height: 500px;
 }
 
+.reasons {
+    margin: 30px 0 10px 0;
+}
+
+#benefits {
+    background-color: #085394;
+    margin-top: 20px;
+}
+
 /* Benefits section */
-#benefits hr {
+/*#benefits hr {
     margin: 3px 0;
     border-top: 1px solid #333333;
-}
+}*/
 
 .container {
     background-color: #6FA8DC;
+}
+
+#benefits-header {
+    margin: 20px 0 0 0;
+}
+
+.first-containers {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*row-gap: 30px;*/
+    color: #222831;
+    /*margin: 40px 40px;*/
+    text-align: center;
+}
+
+.second-containers {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*row-gap: 30px;*/
+    color: #222831;
+    /*margin: 10px 40px;*/
+    text-align: center;
+}
+
+.third-containers {
+    color: #222831;
+    text-align: center;
+}
+
+.benefits-one {
+    list-style-type: none;
+    margin: 10px;
+    padding: 30px;
+    background-color: #9FC5F8;
+    color: #085394;
+}
+
+.person-head {
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 /* About section */
@@ -233,14 +284,21 @@ nav ul li a:hover {
     position: relative;
 }
 
+/*
 .fees-container {
     padding-bottom: 20px;
+}*/
+
+.column-containers {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
 }
 
 span {
     margin-bottom: 25px;
     font-family: 'Manrope', sans-serif;
-    color: #ffffff;
+    /*color: #ffffff;*/
     font-size: large;
 }
 
@@ -251,8 +309,8 @@ span {
 
 .fees-column {
     float: left;
-    padding: 20px;
-  /*  width: 30%; */
+    margin: 20px;
+    /*  width: 30%; */
 }
 
 .begin-price {
@@ -377,205 +435,242 @@ footer {
 
 /* Media query: larger and landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-#gallery-images {
-    column-count: 3;
-    column-gap: 0;
-}
+    #gallery-images {
+        column-count: 3;
+        column-gap: 0;
+    }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+    /* Media query: tablets and larger (768px and up) */
+    @media screen and (min-width: 768px) {
 
-/* Header */
-input[type="checkbox"]:not(:checked)+ul {
-    display: none;
-}
+        /* Header */
+        input[type="checkbox"]:not(:checked)+ul {
+            display: none;
+        }
 
-nav {
-    margin-right: 0;
-    margin-left: 0;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+        nav {
+            margin-right: 0;
+            margin-left: 0;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
 
-/* Checkbox stays hidden */
-nav label {
-    align-self: center;
-    padding: 0.5em;
-    text-align: right;
-    line-height: 1.6em;
-    display: block;
-}
+        /* Checkbox stays hidden */
+        nav label {
+            align-self: center;
+            padding: 0.5em;
+            text-align: right;
+            line-height: 1.6em;
+            display: block;
+        }
 
-/* Display list vertically */
-nav ul {
-    display: flex;
-    justify-content: space-around;
-}
+        /* Display list vertically */
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+        }
 
-/* First list is always visibile items in the menu bar. The second list will be hidden */
-nav ul:last-child {
-    flex-basis: 100%;
-    width: 100%;
-}
+        /* First list is always visibile items in the menu bar. The second list will be hidden */
+        nav ul:last-child {
+            flex-basis: 100%;
+            width: 100%;
+        }
 
-nav ul li {
-    width: 100%;
-    text-align: right;
-    padding: 0.5em;
-    margin: 0;
-    width: fit-content;
-}
+        nav ul li {
+            width: 100%;
+            text-align: right;
+            padding: 0.5em;
+            margin: 0;
+            width: fit-content;
+        }
 
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-}
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
 
-header > ul {
-    display: flex;
-}
+        header>ul {
+            display: flex;
+        }
 
-header > ul > li {
-    padding-left: 1rem;
-}
+        header>ul>li {
+            padding-left: 1rem;
+        }
 
-header label {
-    display: none;
-}
+        header label {
+            display: none;
+        }
 
-nav ul li a:hover {
-    background-color: #999999;
-}
+        nav ul li a:hover {
+            background-color: #999999;
+        }
 
-/* Main section */
-.reasons {
-    padding: 20px 100px 20px 100px;
-}
+        /* Main section */
+        .reasons {
+            margin: 40px 40px 10px 40px;
+        }
 
-.container {
-    padding: 0 100px 0 100px;
-}
+        .container {
+            padding: 0 100px 0 100px;
+        }
 
-/* About section */
-.about {
-    padding: 20px 100px 20px 100px;
-}
+        .first-containers {
+            display: flex;
+            flex-direction: row;
+            row-gap: 30px;
+            color: #222831;
+            margin: 10px 40px;
+            text-align: center;
+        }
+        
+        .second-containers {
+            display: flex;
+            flex-direction: row;
+            row-gap: 30px;
+            color: #222831;
+            margin: 10px 40px;
+            text-align: center;
+        }
+        
+        .third-containers {
+            display: flex;
+            flex-direction: row;
+            row-gap: 30px;
+            color: #222831;
+            margin: 10px 40px;
+            text-align: center;
+        }
+        
+        .benefits-one {
+            list-style-type: none;
+            margin: 10px;
+            padding: 30px;
+            background-color: #9FC5F8;
+            color: #222831;
+        }
 
-.team-image img {
-    width: 200px;
-    height: auto;
-    box-shadow: 2px 2px 2px 0.5px #565d68
-} 
+        /* About section */
+        .about {
+            padding: 20px 100px 20px 100px;
+        }
 
-.about-container {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-} 
+        .team-image img {
+            width: 200px;
+            height: auto;
+            box-shadow: 2px 2px 2px 0.5px #565d68
+        }
 
-.about-image {
-    max-width: 100%;
-    max-height: 100%;
-}
+        .about-container {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
 
-.about-text {
-    font-size: 50px;
-    padding-left: 10px;
-}
+        .about-image {
+            max-width: 100%;
+            max-height: 100%;
+        }
 
-hr {
-    border-top: 1px solid #ffffff;
-    margin: 30px;
-}
+        .about-text {
+            font-size: 50px;
+            padding-left: 10px;
+        }
 
-/* Classes section */
-#classes-image {
-    height: 700px;
+        hr {
+            border-top: 1px solid #ffffff;
+            margin: 30px;
+        }
 
-/* Fees section */
-.fees-container {
-    width: 100%;
-}
+        /* Classes section */
+        #classes-image {
+            height: 700px;
+        }
 
-.column-containers {
-    display: flex;
-    justify-content: center;
-}
+        /* Fees section */
+        .fees-container {
+            width: 100%;
+        }
 
-.fees-column {
-    width: 30%;
-}
+        .column-containers {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 30px;
+        }
 
-/* Contact section */
-.contact-page {
-    margin: 120px 0 0 0;
-    /*padding: 100px 100px 0 100px;
+        .fees-column {
+            width: 30%;
+        }
+
+        /* Contact section */
+        .contact-page {
+            margin: 120px 0 0 0;
+            /*padding: 100px 100px 0 100px;
    /* max-width: 100%; */
-}
+        }
 
-.d-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 80px;
-}
+        .d-flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin: 80px;
+        }
 
-.address-row {
-    width: 50%;
-    margin: 30px 100px 0 0;
-}
+        .address-row {
+            width: 50%;
+            margin: 30px 100px 0 0;
+        }
 
-#form {
-    display: flex;
-    justify-content: flex-start;
-    color: #222831;
-    margin: 120px 10px 10px 0;
-}
+        #form {
+            display: flex;
+            justify-content: flex-start;
+            color: #222831;
+            margin: 120px 10px 10px 0;
+        }
 
-#form input {
-    width: 350px;
-    display: flex;
-    justify-content: flex-end;
-}
+        #form input {
+            width: 350px;
+            display: flex;
+            justify-content: flex-end;
+        }
 
-#para {
-    margin: 0 0 30px;
-}
+        #para {
+            margin: 0 0 30px;
+        }
 
-.map-row {
-    margin: 80px 70px;
-}
+        .map-row {
+            margin: 80px 70px;
+        }
 
-#map {
-    width: 80%;
-    
-}
+        #map {
+            width: 80%;
 
-/* Footer section */
-/*.footer-container {
+        }
+
+        /* Footer section */
+        /*.footer-container {
     padding-top: 100%;
 }*/
 
-.social-media i {
-    color: #999999;
-    font-size: 140%;
-}
+        .social-media i {
+            color: #999999;
+            font-size: 140%;
+        }
 
-.social-media a {
-    padding: 10px;
-}
+        .social-media a {
+            padding: 10px;
+        }
 
-#copyright {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-}
+        #copyright {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+        }
 
-#copyright i {
-    align-items: baseline;
-}
-
+        #copyright i {
+            align-items: baseline;
+        }
+    }
 }
