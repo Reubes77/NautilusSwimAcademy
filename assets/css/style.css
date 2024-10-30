@@ -126,9 +126,10 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-flex;
+    /*display: inline-flex;*/
     margin: 0.3em 1em;
     color: #ffffff;
+    text-align: center;
 }
 
 a {
@@ -220,6 +221,10 @@ nav ul li a:hover {
 }
 
 /* About section */
+.about-main {
+    background-color: #F6B26B;
+}
+
 .about {
     background-color: #F6B26B;
     min-height: 100vh;
@@ -227,8 +232,26 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-top: 0vh;
+    margin: 30px 20px 20px 20px;
     position: relative;
+}
+
+.team-container {
+    margin: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.team-text {
+    margin: 30px;
+}
+
+#team-text p {
+    margin: 0 0 50px 0;
 }
 
 /* About image section */
@@ -565,6 +588,12 @@ footer {
             height: auto;
             box-shadow: 2px 2px 2px 0.5px #565d68
         }
+
+        .team-container {
+            margin: 40px;
+            /*display: flex;
+            flex-direction: column;
+        }*/
 
         .about-container {
             display: flex;
