@@ -79,7 +79,6 @@ header a {
     font-size: 100%;
     list-style-type: none;
     letter-spacing: 2px;
-
 }
 
 #pages a {
@@ -220,7 +219,7 @@ nav ul li a:hover {
     text-transform: uppercase;
 }
 
-/* About section */
+/* About page section */
 .about-main {
     background-color: #F6B26B;
 }
@@ -297,7 +296,7 @@ img {
     height: 500px;
 }
 
-/* Classes section */
+/* Classes page section */
 .classes-main {
     background-color: #ffffff;
     /* min-height: 100vh; */
@@ -309,9 +308,14 @@ img {
     position: relative;
 }
 
+#classes-container {
+    background-color: #085394;
+}
+
 .classes {
     background-color: #085394;
-    padding: 30px 0 30px 0;
+    margin: 30px 20px 50px;
+    /*padding: 30px 0 30px 0;*/
 }
 
 .classes h2 {
@@ -324,10 +328,10 @@ img {
 
 /* Classes image section */
 #classes-image {
-    background: url("../images/pexels-tima-miroshnichenko-6011945.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-shvets-production-8028683.jpg") no-repeat center center/cover;
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 350px;
 }
 
 /* Fees section */
@@ -348,9 +352,9 @@ img {
 }*/
 
 .column-containers {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-evenly;
-    margin: 20px;
+    /*margin: 20px;*/
 }
 
 span {
@@ -374,19 +378,17 @@ span {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    border: 1px solid #222831
 }
 
 .begin-price .begin-head {
-    color: #222831;
+    color: #ffffff;
     font-size: 25px;
-    background-color: #cccccc;
+    background-color: #F6B26B;
     text-transform: uppercase;
 }
 
 .begin-price li {
     text-align: center;
-    border-bottom: 1px solid #222831;
     padding: 20px;
 }
 
@@ -397,10 +399,15 @@ span {
 
 .price-highlight {
     font-size: 30px;
-    background-color: #222831;
+    background-color: #FF9900;
+    color: #ffffff;
 }
 
-/* Gallery section */
+/* Gallery page section */
+.gallery-section {
+    margin-top: 10vh;
+}
+
 .gallery-section img {
     width: 100%;
     line-height: 2em;
@@ -410,7 +417,7 @@ span {
     line-height: 0;
 }
 
-/* Contact section */
+/* Contact page section */
 .contact-page {
     flex: 1 0 auto;
     display: flex;
@@ -613,7 +620,7 @@ footer {
             color: #222831;
         }
 
-        /* About section */
+        /* About page section */
         .about {
             margin: 20px 100px 20px 100px;
             /*padding: 20px 100px 20px 100px;*/
@@ -653,9 +660,13 @@ footer {
             margin: 30px;
         }
 
-        /* Classes section */
+        /* Classes page section */
         #classes-image {
             height: 700px;
+        }
+
+        .classes {
+            margin: 30px 50px 50px;
         }
 
         /* Fees section */
@@ -673,9 +684,14 @@ footer {
             width: 30%;
         }
 
-        /* Contact section */
-        .contact-page {
-            margin: 120px 0 0 0;
+        /* Gallery page section */
+        .gallery-section {
+            margin-top: 4vh;
+        }
+
+        /* Contact page section */
+        /*.contact-page {
+            margin: 120px 0 0 0;*/
             /*padding: 100px 100px 0 100px;
    /* max-width: 100%; */
         }
@@ -684,13 +700,13 @@ footer {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            margin: 80px;
+            /*margin: 80px;*/
         }
-
+        /*
         .address-row {
             width: 50%;
             margin: 30px 100px 0 0;
-        }
+        } */
 
         #form {
             display: flex;
@@ -745,11 +761,12 @@ footer {
             align-items: baseline;
         }
     }
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .first-containers {
-        display: flex;
-        justify-content: center;
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        .first-containers {
+            display: flex;
+            justify-content: center;
+        }
     }
-}
 }
