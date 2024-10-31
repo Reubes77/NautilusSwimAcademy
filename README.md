@@ -73,11 +73,11 @@
 
 ![Header](assets/images/Screenshot_header.webp)
 
-  1. copy to go here.
+  1. Header contains a strong visual of a swimmer to excite the user into exploring the website.
  
-  2. copy to go here.
+  2. The header text informs the user to the reasons why swimming is important.
  
-  3. copy to go here.
+  3. The header texts leads the user to scroll to read more about the benefits of swimming.
 
 ## About Us
 
