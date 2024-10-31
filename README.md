@@ -18,7 +18,7 @@
 
 ![Responsiveness](assets/images/Screenshot_responsiveness.webp)  
 
- You can view this website [here] (https:)
+ You can view this website [here] (https://reubes77.github.io/nautilus-swim-academy/contact.html)
 
  # User Design (UX)
 
@@ -62,13 +62,16 @@
 
 ![Navbar](assets/images/Screenshot_navbar.png)
 
-  1. copy to go here.
+  1. Navbar appears at the top of the website with the logo name appearing on the left and the menu list on the right.
+
+  2. The menu list items: About Us, Classes & Fees, Gallery and Contact Us, each link to their specific pages.
  
-  2. copy to go here.
+  3. The navbar allows the user to easily navigate the website.
  
-  3. copy to go here.
 
 ## Header
+
+![Header](assets/images/Screenshot_header.webp)
 
   1. copy to go here.
  
