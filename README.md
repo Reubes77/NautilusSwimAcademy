@@ -111,15 +111,17 @@
 
 ## Testimonial Page to be created at a later stage
 
-  - At a later stage, we would like to create a testimonial page
+  - At a later stage, we would like to create a testimonial page.
 
 # Testing
 
-  - copy to go here.
+  - I have tested the website on Chrome, Firefox and Safari.
+
+  - I can confirm that the website is responsive, functions on standard screen sizes using devtools device toolbar.
  
-  - copy to go here.
+  - I can confirm that the navigation bar, header, about us, classes & fees, gallery and contact us text are all readible and easy to understand.
  
-  - copy to go here.
+  - I can confirm that the form works, requiring entry in every field, will only accept email address in email field, the submit and reset buttons work. 
 
 # Bugs
 
@@ -148,12 +150,18 @@
 
 # Deployment
 
-  - copy to go here.
-    - copy to go here.
-    
-    - copy to go here.
+  - The website was deployed via Github pages. The following steps were used to deploy this website:
 
-    - copy to go here.
+    - In the Github repository, navigate to the Settings Tab, under the Code & automation section, click on the Pages Tab.
+    
+    - Under the Build and Deployment section, select the Source section drop-down menu, then select the Master Branch.
+
+    - Once the Master Branch has been selected, click on the Branch drop-down menu and select Main tab and then click Save.
+    
+    - Go back to the Code tab and on the right-hand side, click on the Github pages under the Deployments section.
+  
+    - Under the Github-Pages Deployments section, click on the link to the completed website.
+
 
 The live link can be found here: 
 
