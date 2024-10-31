@@ -459,14 +459,14 @@ iframe {
 /* Footer section */
 footer {
     background-color: #333333;
-    color: #999999;
+    color: #e3e3e3e3;
     text-align: left;
     width: 100%;
     z-index: 100;
 }
 
 .social-media i {
-    color: #999999;
+    color: #e3e3e3;
     font-size: 140%;
 }
 
