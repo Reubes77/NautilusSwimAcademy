@@ -58,7 +58,7 @@
 
 - ### Navigation
 
-! [ ]
+! [Navbar](assets/images/Screenshot_navbar.png)
 
   1. copy to go here.
  
