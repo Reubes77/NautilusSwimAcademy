@@ -138,13 +138,13 @@
 # Validator testing
 
   - HTML
-    * copy to go here.
+    * No errors were returned when passing through the official W3C validator.
 
   - CSS
-    * copy to go here.
+    * No errors returned when passing through the official W3C CSS Jigsaw validator.
 
   - Accesibility
-    * copy to go here.
+    * I can confirm that the colors and fonts used are easily readible and accessible by running through Lighthouse in devtools.
 
 # Deployment
 
@@ -161,12 +161,14 @@ The live link can be found here:
 
 ### Content
 
-  - >Blog article by David Worrell in [We Aquatics] (https://weaquatics.com/blog/conquering-swim-anxiety/#:~:text=Over%2055%20percent%20of%20people,to%20put%20their%20heads%20underwater)
+  1. >Blog article by David Worrell in [We Aquatics] (https://weaquatics.com/blog/conquering-swim-anxiety/#:~:text=Over%2055%20percent%20of%20people,to%20put%20their%20heads%20underwater)
 
-  - copy to go here.
+  2. The code for the Navbar sourced from the Love Running Project.
+
+  3. The code to make the social media links work sourced from the Love Running Project.
 
 ### Media
 
-  - copy to go here.
+  1. Images sourced from [pexel.com](https://www.pexels.com/)
 
   - copy to go here.
