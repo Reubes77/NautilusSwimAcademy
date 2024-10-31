@@ -48,7 +48,6 @@ p {
     font-family: 'Manrope', sans-serif;
     color: #ffffff;
     font-size: large;
-    /*margin: 30px;*/
     display: flex;
     justify-content: center;
     text-align: center;
@@ -95,7 +94,6 @@ header a {
 }
 
 #logo {
-    /*padding-left: 10px;*/
     text-decoration: none;
 }
 
@@ -125,7 +123,6 @@ nav ul {
 }
 
 nav ul li {
-    /*display: inline-flex;*/
     margin: 0.3em 1em;
     color: #ffffff;
     text-align: center;
@@ -174,11 +171,6 @@ nav ul li a:hover {
 }
 
 /* Benefits section */
-/*#benefits hr {
-    margin: 3px 0;
-    border-top: 1px solid #333333;
-}*/
-
 .container {
     background-color: #6FA8DC;
 }
@@ -188,20 +180,12 @@ nav ul li a:hover {
 }
 
 .first-containers {
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*row-gap: 30px;*/
     color: #222831;
-    /*margin: 40px 40px;*/
     text-align: center;
 }
 
 .second-containers {
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*row-gap: 30px;*/
     color: #222831;
-    /*margin: 10px 40px;*/
     text-align: center;
 }
 
@@ -230,7 +214,6 @@ nav ul li a:hover {
 
 .about {
     background-color: #F6B26B;
-    /*min-height: 100vh;*/
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -273,11 +256,6 @@ nav ul li a:hover {
     font-size: large;
 }
 
-/*
-.team-container {
-    margin: 30px;
-}*/
-
 img {
     width: 100%;
     height: auto;
@@ -303,7 +281,6 @@ img {
 /* Classes page section */
 .classes-main {
     background-color: #ffffff;
-    /* min-height: 100vh; */
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -319,7 +296,6 @@ img {
 .classes {
     background-color: #6FA8DC;
     margin: 30px 20px 50px;
-    /*padding: 30px 0 30px 0;*/
 }
 
 .classes h2 {
@@ -350,19 +326,11 @@ img {
     position: relative;
 }
 
-/*
-.fees-container {
-    padding-bottom: 20px;
-}*/
-
 .column-containers {
-    /*display: flex;*/
     justify-content: space-evenly;
-    /*margin: 20px;*/
 }
 
 span {
-    /*margin-bottom: 25px;*/
     font-family: 'Manrope', sans-serif;
     font-size: large;
 }
@@ -375,7 +343,6 @@ span {
 .fees-column {
     float: left;
     margin: 20px;
-    /*  width: 30%; */
 }
 
 .begin-price {
@@ -449,6 +416,10 @@ span {
     margin: 1px;
 }
 
+#visit-address {
+    margin: 0 0 20px 0;
+}
+
 #contact-head {
     text-align: left;
     color: #222831;
@@ -471,11 +442,16 @@ span {
     color: #222831;
 }
 
+/* Map section */
 .map-row {
     margin: 80px 30px 20px;
 }
 
 #map {
+    width: 100%;
+}
+
+iframe {
     width: 100%;
 }
 
@@ -627,7 +603,6 @@ footer {
         /* About page section */
         .about {
             margin: 20px 100px 20px 100px;
-            /*padding: 20px 100px 20px 100px;*/
         }
 
         .owner-image img {
@@ -635,13 +610,6 @@ footer {
             height: auto;
             box-shadow: 2px 2px 2px 0.5px #565d68
         }
-
-        /*
-        .team-container {
-            margin: 40px;
-            /*display: flex;
-            flex-direction: column;
-        }*/
 
         .about-container {
             display: flex;
@@ -694,23 +662,11 @@ footer {
         }
 
         /* Contact page section */
-        /*.contact-page {
-            margin: 120px 0 0 0;*/
-            /*padding: 100px 100px 0 100px;
-   /* max-width: 100%; */
-        }
-
         .d-flex {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            /*margin: 80px;*/
         }
-        /*
-        .address-row {
-            width: 50%;
-            margin: 30px 100px 0 0;
-        } */
 
         #form {
             display: flex;
@@ -729,13 +685,14 @@ footer {
             margin: 0 0 30px;
         }
 
+        /* Map section */
         .map-row {
             margin: 80px 70px;
         }
-        /*
-        #map {
-            width: 80%;
-        } */
+
+        iframe {
+            width: 880px;
+        }
 
         /* Footer section */
         #footer-container {
@@ -771,4 +728,10 @@ footer {
             display: flex;
             justify-content: center;
         }
+        
+        /* Map section*/
+        iframe {
+            width: 100%;
+        }
     }
+}
