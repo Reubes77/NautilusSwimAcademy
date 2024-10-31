@@ -440,7 +440,6 @@ span {
 }
 
 #form {
-    /*margin: 120px 10px 10px 0;*/
     color: #222831;
 }
 
@@ -694,7 +693,7 @@ footer {
         }
 
         iframe {
-            width: 880px;
+            width: 100%;
         }
 
         /* Footer section */
