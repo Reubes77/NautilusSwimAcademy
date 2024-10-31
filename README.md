@@ -16,6 +16,8 @@
 
   5. ablity to contact the Academy and sign-up.
 
+![Responsiveness](assets/images/Screenshot_responsiveness.webp)  
+
  You can view this website [here] (https:)
 
  # User Design (UX)
@@ -58,7 +60,7 @@
 
 - ### Navigation
 
-! [Navbar](assets/images/Screenshot_navbar.png)
+![Navbar](assets/images/Screenshot_navbar.png)
 
   1. copy to go here.
  
