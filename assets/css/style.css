@@ -383,6 +383,7 @@ span {
 .gallery-section img {
     width: 100%;
     line-height: 2em;
+    padding: 0;
 }
 
 #gallery-images {
@@ -439,13 +440,13 @@ span {
 }
 
 #form {
-    margin: 120px 10px 10px 0;
+    /*margin: 120px 10px 10px 0;*/
     color: #222831;
 }
 
 /* Map section */
 .map-row {
-    margin: 80px 30px 20px;
+    margin: 20px 30px 20px;
 }
 
 #map {
@@ -454,6 +455,7 @@ span {
 
 iframe {
     width: 100%;
+    min-height: 300px;
 }
 
 /* Footer section */
@@ -729,10 +731,18 @@ footer {
             display: flex;
             justify-content: center;
         }
+
+        /* Gallery section */
+        .gallery-section img {
+            width: 100%;
+            line-height: 2em;
+            padding: 0;
+        }
         
         /* Map section*/
         iframe {
             width: 100%;
+            min-height: 480px;
         }
     }
 }
