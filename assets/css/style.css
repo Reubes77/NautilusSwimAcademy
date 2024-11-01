@@ -737,8 +737,13 @@ footer {
             line-height: 2em;
             padding: 0;
         }
-        
-        /* Map section*/
+
+        #gallery-images {
+            column-count: 3;
+            column-gap: 0;
+        }
+
+        /* Map section */
         iframe {
             width: 100%;
             min-height: 480px;
