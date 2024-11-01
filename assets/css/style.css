@@ -748,5 +748,12 @@ footer {
             width: 100%;
             min-height: 480px;
         }
+
+        @media (min-width: 1200px) {
+        #gallery-images {
+            column-gap: 60px;
+            margin: 0 30px;
+        }
+        }
     }
 }
