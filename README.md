@@ -103,7 +103,7 @@ We used Balsamiq to create a wireframe of our website.
 
 # Features
 
-- ### Navigation
+### Navigation
 
 ![Navbar](assets/images/screenshot_navbar.webp)
 
@@ -114,7 +114,7 @@ We used Balsamiq to create a wireframe of our website.
   3. The navbar allows the user to easily navigate the website.
  
 
-## Header
+### Header
 
 ![Header](assets/images/screenshot_headercopy.webp)
 
@@ -126,7 +126,7 @@ We used Balsamiq to create a wireframe of our website.
 
 
 
-## About Us
+### About Us
 
 ![About Us](assets/images/screenshot_aboutus_page.webp) 
 
@@ -141,9 +141,11 @@ We used Balsamiq to create a wireframe of our website.
   5. The page also contains The Team section which introduces the owner and the coaches.
 
 
-## Classes & Fees
+### Classes & Fees
 
-![Classes & Fees](assets/images/screenshot_navbar.webp)
+#### Classes section
+
+![Classes](assets/images/screenshot_classes_page.webp)
 
   1. The page gives a brief overview of the operating times of the Academy as well as the facilities offered to students.
   
@@ -152,9 +154,13 @@ We used Balsamiq to create a wireframe of our website.
   3. The page also contains a Fees section which shows the 3 categories of students and the fee for each category.
 
 
-## Gallery
+#### Fees section
 
-![Gallery](assets/images/screenshot_navbar.webp)
+![Fees](assets/images/screenshot_fees_page.webp)
+
+### Gallery
+
+![Gallery](assets/images/screenshot_classesfees_page.webp)
 
   1. Images are displayed an array of at the Academy.
 
@@ -163,18 +169,15 @@ We used Balsamiq to create a wireframe of our website.
   3. The images in the gallery space vertically automatically based on the gallery height.
 
 
-## Contact Us 
+### Contact Us 
 
-![Address](assets/images/screenshot_contactus_page.webp)
+#### Address
 
-  1. The Contact page contains the Academy contact details namely the address, phone numbers and a basic form.
-  
-  2. 
-  
-  3. 
+![Address](assets/images/screenshot_address_page.webp)
 
+  1. The Contact page prompts users to contact the Academy by providing the address and phone numbers.
 
-## Sign Up Form
+#### Sign Up Form
 
 ![Form](assets/images/Form.webp)
 
@@ -185,7 +188,7 @@ We used Balsamiq to create a wireframe of our website.
   3. The form also has a reset button allowing the user to easily clear the form fields.
 
 
-## Map
+#### Map
 
 ![Map](assets/images/map.webp)
 
@@ -196,12 +199,12 @@ We used Balsamiq to create a wireframe of our website.
 
 ## Footer
 
-  1. copy to go here.
- 
-  2. copy to go here.
- 
-  3. copy to go here.
+![Footer](assets/images/screenshot_footer.webp)
 
+  1. The footer contains the social media icons (Facebook, Instagram, Tik Tok, X), allowing users another 
+    channel to find and interact with the Academy.
+ 
+  2. The Footer tab is fixed to the bottom of the Footer allowing the user to easily interact with our social media icons.
 
 
 ## Pages to be created at a later stage:
@@ -223,6 +226,7 @@ We used Balsamiq to create a wireframe of our website.
   - I can confirm that the form works, requiring entry in every field, will only accept email address in email field, 
     the submit and reset buttons work. 
 
+
 # Bugs
 
 ### Fixed Bugs
@@ -236,6 +240,7 @@ We used Balsamiq to create a wireframe of our website.
 ### Unfixed Bugs
 
   copy to go here.
+
 
 # Validator testing
 
