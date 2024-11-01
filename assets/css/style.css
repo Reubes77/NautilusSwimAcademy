@@ -291,11 +291,11 @@ img {
 }
 
 #classes-container {
-    background-color: #6FA8DC;
+    background-color: #085394;
 }
 
 .classes {
-    background-color: #6FA8DC;
+    background-color: #085394;
     margin: 30px 20px 50px;
 }
 
@@ -353,7 +353,7 @@ span {
 }
 
 .begin-price .begin-head {
-    color: #ffffff;
+    color: #222831;
     font-size: 25px;
     background-color: #F6B26B;
     text-transform: uppercase;
@@ -372,7 +372,7 @@ span {
 .price-highlight {
     font-size: 30px;
     background-color: #FF9900;
-    color: #ffffff;
+    color: #222831;
 }
 
 /* Gallery page section */
@@ -651,7 +651,7 @@ footer {
         .column-containers {
             display: flex;
             justify-content: space-evenly;
-            margin: 30px;
+            /*margin: 30px;*/
         }
 
         .fees-column {
