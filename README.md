@@ -244,11 +244,21 @@ We used Balsamiq to create a wireframe of our website.
 
 # Validator testing
 
-  - HTML
-    * No errors were returned when passing through the official W3C validator.
+### HTML
 
-  - CSS
-    * No errors returned when passing through the official W3C CSS Jigsaw validator.
+I have used the recommended [HTML W3C Validator](https://www.w3.org/) to validate all of my HTML files.
+
+
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate my CSS file.
+ 
+![screenshot](assets/images/jigsaw_css_validator.webp)
+
+##### Pass: No Errors
+
+
 
   - Accesibility
     * I can confirm that the colors and fonts used are easily readible and accessible by running through Lighthouse in devtools.
