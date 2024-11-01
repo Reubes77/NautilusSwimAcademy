@@ -209,11 +209,11 @@ nav ul li a:hover {
 
 /* About page section */
 .about-main {
-    background-color: #ff9900;
+    background-color: #f6b26b;
 }
 
 .about {
-    background-color: #ff9900;
+    background-color: #f6b26b;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -222,8 +222,17 @@ nav ul li a:hover {
     position: relative;
 }
 
+#about-text {
+    color:#222831;
+}
+
+#about-para {
+    color: #222831;
+}
+
 #team-header {
     margin: 40px 0 0 0;
+    color: #222831;
 }
 
 .team-one {
@@ -236,23 +245,23 @@ nav ul li a:hover {
 
 .person-one {
     font-size: x-large;
-    color: #ffffff;
+    color: #222831;
 }
 
 .person-two {
     font-size: x-large;
-    color: #ffffff;
+    color: #222831;
 }
 
 .one-text {
     margin: 0 0 30px 0;
-    color: #ffffff;
+    color: #222831;
     font-size: large;
 }
 
 .two-text {
     margin: 0 0 30px 0;
-    color: #ffffff;
+    color: #222831;
     font-size: large;
 }
 
