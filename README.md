@@ -178,6 +178,10 @@ I used Balsamiq to create a wireframe of the website.
 
 ![Fees](assets/images/fees_section.webp)
 
+  1. The fees section allows the user to see the three categories available at the Academy.
+
+  2. It also contains the fees associated with each category.
+
 
 
 ## Gallery
@@ -203,8 +207,10 @@ I used Balsamiq to create a wireframe of the website.
 
 ![Address](assets/images/contact_us_section.webp)
 
-  1. The Contact page prompts users by means of a friendly tone to make contact 
+  - The Contact Us section prompts users by means of a friendly tone to make contact 
     with the Academy by providing the address and phone numbers.
+
+
 
 
 #### Sign Up Form
@@ -218,6 +224,8 @@ I used Balsamiq to create a wireframe of the website.
   3. The form also has a reset button allowing the user to easily clear the form fields.
 
 
+
+
 #### Map
 
 ![Map](assets/images/map_section.webp)
@@ -225,6 +233,7 @@ I used Balsamiq to create a wireframe of the website.
   1. A map allows users to visually locate the Academy via Google Maps.
 
   2. The map gives the user the ablilty to physically visit the Academy if they choose to do so.
+
 
 
 
