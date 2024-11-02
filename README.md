@@ -48,7 +48,7 @@ Color drives emotion and careful consideration was taken in pairing colors to co
 
   - #eeeeee used for tertiary text.
 
-![Color palette](assets/images/colorpalette.webp)  
+![Color palette](assets/images/colorpalette-01.webp)  
 
 
 ### Typography
