@@ -2,7 +2,11 @@
 
  Welcome to the Nautilus Swimcademy Website.
 
- The Nautilus Swimcademy is a landing page for people who have a desire to learn to swim, improve their swimming technique, get healthy & improve fitness or to overcome their fear of water. I wanted to create a website that give users a place to find information that would inform them about swimming and seeing this as a healthy lifestyle exercise options as well as attract parents who want to give their children the opportunity to learn to swim in order to better prepare them when faced with water. I aimed to make the website as intuitive and easily to navigate.  
+The Nautilus Swimcademy is a landing page for people who have a desire to learn to swim, improve their swimming technique, get healthy & improve fitness or to overcome their fear of water. My aim was to create a website that gives users a place to find information that would inform them about swimming and hopefully include swimming as part of change towards a healthier lifestyle. 
+
+Life has become so rushed, and swimming is a low-impact exercise that offers numerous physical and mental health benefits. The opportunity to learn to swim at a young age is one of the best gifts a parent can give their child, as kids learn water safety, build their confidence, physical and mental health, as well as social skills, and most of all just learn to have fun safely and confidently. 
+
+The design of this website is intended to be intuitive and easy to navigate, providing users with a simple and seamless experience.   
 
  Users of this website will be able to find the following information: 
 
@@ -16,7 +20,7 @@
 
   5. see a gallery of images about the Academy;
 
-  6. contact the Academy and sign-up and find the location via a map;
+  6. contact the Academy, sign-up and find the location via a map;
 
   7. interact with our social media channels.
 
@@ -30,11 +34,11 @@
 
  ### Creative Rationale
 
-When starting the journey on the home page, we wanted the user to get excited in taking this step to becoming a swimmer. I made use of a visually dynamic movement image of a swimmer performing the butterfly stroke rising from the water, as this would create a sense of inspiration and awe. I used this principle to drive the following two pages (About Us and Classes & Fees pages) which the user would navigate to. I felt it important to also add a Gallery page to showcase the diverse students at the Academy and so motivate the user even more to take action and sign up. The Contact Us page allowed the user to be able to sign-up using the form or call, allowing additional options for communication with the Academy. I incorporated a map with a pin location to provide more information for the user if they desired to visit the Academy.
+When starting the journey on the home page, we wanted the user to get excited in taking this step to becoming a swimmer. I made use of a visually dynamic movement image of a swimmer performing the butterfly stroke rising from the water, as this would create a sense of inspiration and awe. I used this principle to drive the following two pages (About Us and Classes & Fees pages) which the user would navigate to. I felt it important to also add a Gallery page to showcase the diverse students at the Academy and so motivate the user even more to take action and sign up. The Contact Us page allowed the user to be able to sign-up using the form or call, allowing additional options for communication with the Academy. I incorporated a map with a pin location to provide more information for the user if they desired to visit the Academy. The name Nautilus takes inspiration from the Jules Verne novel, Twenty Thousand Leagues Under the Seas which was Captain Nemo's submarine.
 
-### Colour Scheme
+### Color Scheme
 
-Color drives emotion and careful consideration was taken in pairing colors to compliment each other and the visuals but also drive emeotion. I used 3 basic colors groups and two accent colors for the website to visually compliment the website from a color perspective. The primary colour group used is Blue which gives a sense of competence and trust. The second colour group used is Orange which denotes confidence and bravery and the third colour group is white which drives honesty and simplicity. The two accent colors are greys which compliments the  color white and help soften certain elements in our website. Below is a breakdown of the colors and their usage.
+Color drives emotion and careful consideration was taken in pairing colors to compliment each other and the visuals but also to drive emotion. I used three basic color groups and two accent colors for the website to visually compliment the website from a color perspective. The primary colour group used is Blue which gives a sense of competence and trust. The second colour group used is Orange which denotes confidence and bravery and the third colour group is white which drives honesty and simplicity. The two accent colors are greys which compliments the  color white and help soften certain elements in our website. Below is a breakdown of the colors and their usage.
 
   - #085394 / #9fc5f8 / #6fa8dc used as background color for home and classes pages.
 
@@ -76,7 +80,7 @@ Color drives emotion and careful consideration was taken in pairing colors to co
   > Research shows 46 percent of adults are afraid to swim in deep water, and 32 percent of people are scared to put 
     their heads underwater.
 
-  4.  Adults who have suffered form an injury want a exercise regime that is not too strenous on their bodies and find 
+  4.  Adults who have suffered from an injury want a exercise regime that is not too strenous on their bodies and find 
       through their research that swimming offers a more gentle method of becoming healthy & fit.
 
   5. Parents want their children to improve their swimming technique and decide to place them in a swimming school.
@@ -142,7 +146,7 @@ I used Balsamiq to create a wireframe of the website.
 
 ![About Us](assets/images/aboutpage_device_copy.webp) 
 
-  1. The page has a header image to re-inforce competence (in our text which uses the Dark Blue) and bravery (in our background 
+  1. The page has a header image to reinforce competence (in our text which uses the Dark Blue) and bravery (in our background 
     color which uses Orange) as it showcases a coach teaching a child in the pool.
   
   2. The page allows users to learn more about the ethos and philosophy of the Academy.
@@ -192,9 +196,9 @@ I used Balsamiq to create a wireframe of the website.
 
   2. Images are displayed into 3 columns and stacked vertically in mobile view. 
 
-  3. The images in the gallery space vertically automatically based on the gallery height.
+  3. The images in the gallery are automatically spaced vertically, based on the gallery height.
 
-  4. The images are displayed vertically on a desktop computer with white border running vertically on the sides 
+  4. The images are displayed vertically on a desktop computer with white borders running vertically on the sides 
     and in the columns, which again continues the abstract visual cue of the swimming lanes of a pool.
 
 
@@ -251,8 +255,8 @@ I used Balsamiq to create a wireframe of the website.
 
   - I want to create a testimonial page to help promote the Academy through the voices of students and parents.
 
-  - I want to create a quarterly newsletter to showcase the various topic such as the latest swimming techniques, eating tips for swimmers, swimming 
-    competitions and upcoming swimming events as well as any social events which the Academy holds to raise funds for the school and charity.
+  - I want to create a quarterly newsletter to showcase the various topics such as the latest swimming techniques, nutrition tips for swimmers, 
+    swimming competitions and upcoming swimming events as well as any social events which the Academy holds to raise funds for the school and charity.
 
 
 ----
