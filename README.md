@@ -309,26 +309,31 @@ I have used the recommended [HTML W3C Validator](https://www.w3.org/) to validat
 
 ##### Pass: No Errors
 
+-----
 
 ![aboutscreenshot](assets/images/w3c_html_validator_aboutpage.webp)
 
 ##### Pass: No Errors
 
+-----
 
 ![classesscreenshot](assets/images/w3c_html_validator_classespage.webp)
 
 ##### Pass: No Errors
 
+-----
 
 ![galleryscreenshot](assets/images/w3c_html_validator_gallerypage.webp)
 
 ##### Pass: No Errors
 
+-----
+
 ![contactscreenshot](assets/images/w3c_html_validator_contactpage.webp)
 
 ##### Pass: No Errors
 
-
+---------------
 
 ### CSS
 
@@ -338,6 +343,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ##### Pass: No Errors
 
+---------
 
 ## Lighthouse Audit
 
@@ -347,21 +353,25 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ![homepage](assets/images/accessibility_homepage.webp)
 
+----------
 
 #### About Us page:
 
 ![aboutpage](assets/images/accessibility_aboutpage.webp)
 
+----------
 
 #### Classes & Fees page:
 
 ![classespage](assets/images/accessibility_classespage.webp)
 
+---------
 
 #### Gallery page:
 
 ![gallerypage](assets/images/accessibility_gallerypage.webp)
 
+--------
 
 #### Contact Us page:
 
