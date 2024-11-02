@@ -1,4 +1,4 @@
- # Nautilus Swim Academy
+ # Nautilus Swimcademy
 
  Welcome to the Nautilus Swimcademy Website.
 
