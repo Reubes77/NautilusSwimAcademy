@@ -2,39 +2,45 @@
 
  Welcome to the Nautilus Swimcademy Website.
 
- The Nautilus Swimcademy is a landing page for people (parents & childern) who have a desire to learn to swim, improve their swimming technique, get healthy & improve fitness or to overcome their fear of water. 
+ The Nautilus Swimcademy is a landing page for people who have a desire to learn to swim, improve their swimming technique, get healthy & improve fitness or to overcome their fear of water. I wanted to create a website that give users a place to find information that would inform them about swimming and seeing this as a healthy lifestyle exercise options as well as attract parents who want to give their children the opportunity to learn to swim in order to better prepare them when faced with water. I aimed to make the website as intuitive and easily to navigate.  
 
- Users of this website will be able to find information to: 
+ Users of this website will be able to find the following information: 
 
   1. learning the benefits of swimming;
   
-  2. help choose the right class as well as the fee structure of each class;
+  2. learn about the Academy ethos and teaching practice;
+  
+  3. help the user to choose the right class for them;
 
-  3. learn about the Academy ethos and teaching practice;
+  4. find out about the fee structure of each class;
 
-  4. see a gallery of images about the Academy;
+  5. see a gallery of images about the Academy;
 
-  5. ablity to contact the Academy and sign-up and find the location via a map.
+  6. contact the Academy and sign-up and find the location via a map;
+
+  7. interact with our social media channels.
 
 ![Responsiveness](assets/images/screenshot_responsiveness.webp)  
 
  [You can view this website here](https://reubes77.github.io/nautilus-swim-academy/contact.html)
 
+ ----
+
  # UX
 
- ### Rationale
+ ### Creative Rationale
 
-When starting the journey on the home page, we wanted the user to get excited in taking this step to becoming a swimmer. We felt the use of a visually heroic image of a swimmer mid-stroke rising from the water would create a sense of inspiration. We used this principle to drive each page which the user would navigate to, namely, About Us and the Classes & Fees pages. We felt it important to also add a Gallery page to showcase the diverse students at our Academy and so motivate the user even more to take action and sign up. Our Contact Us page allowed the user to be able to sign-up using the form or call us, allowing additional options for communication with the Academy. We also thought that incorporating a map with a pin location would also provide more information for the user if they desired to visit us.
+When starting the journey on the home page, we wanted the user to get excited in taking this step to becoming a swimmer. I made use of a visually dynamic movement image of a swimmer performing the butterfly stroke rising from the water, as this would create a sense of inspiration and awe. I used this principle to drive the following two pages (About Us and Classes & Fees pages) which the user would navigate to. I felt it important to also add a Gallery page to showcase the diverse students at the Academy and so motivate the user even more to take action and sign up. The Contact Us page allowed the user to be able to sign-up using the form or call, allowing additional options for communication with the Academy. I incorporated a map with a pin location to provide more information for the user if they desired to visit the Academy.
 
 ### Colour Scheme
 
-We used 3 basic colors groups to drive the website visually from a color perspective. The primary colour group used is Blue which drives a sense of competence and trust. The second colour group used is Orange which drives confidence and bravery and the third colour group is white which drives honesty and simplicity and this is also accompanied by greys which help soften certain elements in our website.
+Color drives emotion and careful consideration was taken in pairing colors to compliment each other and the visuals but also drive emeotion. I used 3 basic colors groups and two accent colors for the website to visually compliment the website from a color perspective. The primary colour group used is Blue which gives a sense of competence and trust. The second colour group used is Orange which denotes confidence and bravery and the third colour group is white which drives honesty and simplicity. The two accent colors are greys which compliments the  color white and help soften certain elements in our website. Below is a breakdown of the colors and their usage.
 
   - #085394 / #9fc5f8 / #6fa8dc used as background color for home and classes pages.
 
   - #f6b26b / #ff9900 used for fees structure and background color for about page.
 
-  - #222831 used for navbar, headlines and text.
+  - #222831 used for navbar, headlines and about page text.
 
   - #ffffff used for headlines and primary text, background color for fees and contact page.
 
@@ -42,7 +48,7 @@ We used 3 basic colors groups to drive the website visually from a color perspec
 
   - #eeeeee used for tertiary text.
 
-![Color palette](assets/images/colorpalette.png)  
+![Color palette](assets/images/colorpalette.webp)  
 
 
 ### Typography
@@ -51,17 +57,12 @@ We used 3 basic colors groups to drive the website visually from a color perspec
 
   - Montserrat was used for the primary headers.
   - Manrope was used for subheadings and all other text.
-  - Montserrat and Manrope were selected as they are both readable and clear fonts, which is ideal for main headings 
-    and large sections of text.
+  - Montserrat and Manrope were selected because it is a sans serif and compliments the color pairing 
+    of Blue and Orange as the font is functional and contemporary. Both are readable and clear fonts, 
+    which is ideal for main headings and large sections of text.
 
-  Font Awesome icons were used throughout the site, such as the social media icons in the footer.
+  * Font Awesome icons were used throughout the site, such as the social media icons in the footer.
 
-### Wireframes created on Balsamiq:
-
-Before we started designing the website, we went to the drawing board to map out the design structure. 
-We used Balsamiq to create a wireframe of our website.
-
-![Wireframes](assets/images/wireframes.png)
 
 ## Case stories
 
@@ -101,9 +102,17 @@ We used Balsamiq to create a wireframe of our website.
   3. Gain interest and connect with social media.
 
 
+### Wireframes created on Balsamiq:
+
+Before I started designing the website, I went to the drawing board to map out the design structure. 
+I used Balsamiq to create a wireframe of the website.
+
+![Wireframes](assets/images/wireframes.webp)
+
+
 # Features
 
-### Navigation
+## Navigation
 
 ![Navbar](assets/images/screenshot_navbar.webp)
 
@@ -112,25 +121,29 @@ We used Balsamiq to create a wireframe of our website.
   2. The menu list items: About Us, Classes & Fees, Gallery and Contact Us, each link to their specific pages.
  
   3. The navbar allows the user to easily navigate the website.
- 
 
-### Header
+  4. In mobile view the menu list is contained in the burger icon and once activated, a drop-down menu appears revealing 
+    the pages to the mobile version of the website.
 
-![Header](assets/images/screenshot_headercopy.webp)
+
+## Header and Home page
+
+![Homepage](assets/images/homepage_device_copy.webp)   
 
   1. Header contains a strong visual of a swimmer to excite the user into exploring the website.
  
-  2. The header text informs the user to the reasons why swimming is important.
+  2. The header image leads the user to scroll to read more about the benefits of swimming.
  
-  3. The header texts leads the user to scroll to read more about the benefits of swimming.
+  3. The home page informs the user about the benefits of swimming and the benefits are contained within rectangular shapes 
+    to creates an abstract visual cue of the waves created by swimmers in the swimming lanes of a pool.
 
 
+## About Us
 
-### About Us
+![About Us](assets/images/aboutpage_device_copy.webp) 
 
-![About Us](assets/images/screenshot_aboutus_page.webp) 
-
-  1. The page has a header image to re-inforce trust as it showcases a coach teaching a child in the pool.
+  1. The page has a header image to re-inforce competence (in our text which uses the Dark Blue) and bravery (in our background 
+    color which uses Orange) as it showcases a coach teaching a child in the pool.
   
   2. The page allows users to learn more about the ethos and philosophy of the Academy.
  
@@ -141,47 +154,64 @@ We used Balsamiq to create a wireframe of our website.
   5. The page also contains The Team section which introduces the owner and the coaches.
 
 
-### Classes & Fees
+
+## Classes & Fees
+
+![Classpage](assets/images/classespage_device_copy.webp)
 
 #### Classes section
 
 ![Classes](assets/images/screenshot_classes_page.webp)
 
-  1. The page gives a brief overview of the operating times of the Academy as well as the facilities offered to students.
+  1. The page has a header image which depicts a coach and student reinforcing the hands-on approach of the coaches 
+    promoting the sense of competence. I used the Blue background color to push the sense of competence through color 
+    with the white text driving the narrative of honesty.
   
   2. Information about online registration is provided to further assist users in their decision making process.
   
   3. The page also contains a Fees section which shows the 3 categories of students and the fee for each category.
 
+  4. The page gives a brief overview of the operating times as well as the facilities offered.
+
 
 #### Fees section
 
-![Fees](assets/images/screenshot_fees_page.webp)
+![Fees](assets/images/fees_section.webp)
 
-### Gallery
 
-![Gallery](assets/images/screenshot_classesfees_page.webp)
 
-  1. Images are displayed an array of at the Academy.
+## Gallery
+
+![Gallery](assets/images/gallerypage_device_copy.webp)
+
+  1. Images are displayed are an array of the diversity in ages of the students at the Academy.
 
   2. Images are displayed into 3 columns and stacked vertically in mobile view. 
 
   3. The images in the gallery space vertically automatically based on the gallery height.
 
+  4. The images are displayed vertically on a desktop computer with white border running vertically on the sides 
+    and in the columns, which again continues the abstract visual cue of the swimming lanes of a pool.
 
-### Contact Us 
+
+
+## Contact Us 
+
+![contactpage](assets/images/contactpage_device_copy.webp)
 
 #### Address
 
-![Address](assets/images/screenshot_address_page.webp)
+![Address](assets/images/contact_us_section.webp)
 
-  1. The Contact page prompts users to contact the Academy by providing the address and phone numbers.
+  1. The Contact page prompts users by means of a friendly tone to make contact 
+    with the Academy by providing the address and phone numbers.
+
 
 #### Sign Up Form
 
-![Form](assets/images/Form.webp)
+![Form](assets/images/form_section.webp)
 
-  1. The form allows users to get in touch with the Academy.
+  1. The form allows users another method to sign up to the Academy.
  
   2. The form requires the user inputs for validation in order to be submitted.
  
@@ -190,11 +220,12 @@ We used Balsamiq to create a wireframe of our website.
 
 #### Map
 
-![Map](assets/images/map.webp)
+![Map](assets/images/map_section.webp)
 
   1. A map allows users to visually locate the Academy via Google Maps.
 
   2. The map gives the user the ablilty to physically visit the Academy if they choose to do so.
+
 
 
 ## Footer
@@ -204,49 +235,98 @@ We used Balsamiq to create a wireframe of our website.
   1. The footer contains the social media icons (Facebook, Instagram, Tik Tok, X), allowing users another 
     channel to find and interact with the Academy.
  
-  2. The Footer tab is fixed to the bottom of the Footer allowing the user to easily interact with our social media icons.
+  2. The Footer tab is fixed to the bottom of the website allowing the user to easily interact with our social media icons.
 
 
 ## Pages to be created at a later stage:
 
-  - Create a testimonial page to help promote the Academy through the voices of students and parents.
+  - I want to create a testimonial page to help promote the Academy through the voices of students and parents.
 
-  - Create a quarterly newsletter to showcase the latest swimming techniques, eating tips for swimmers, swimming competitions 
-    and upcoming events which the Academy holds such as social events.
+  - I want to create a quarterly newsletter to showcase the various topic such as the latest swimming techniques, eating tips for swimmers, swimming 
+    competitions and upcoming swimming events as well as any social events which the Academy holds to raise funds for the school and charity.
+
+
+----
+
+# Technologies used:
+
+  - HTML
+    * Page markup.
+
+  - CSS
+    * Styling.
+
+
+----
 
 # Testing
 
   - I have tested the website on Chrome, Firefox and Safari.
 
-  - I can confirm that the website is responsive, functions on standard screen sizes using devtools device toolbar.
+  - I tested the website to see if it is responsive, functions on standard screen sizes using devtools device toolbar.
  
-  - I can confirm that the navigation bar, header, about us, classes & fees, gallery and contact us text are all readible 
+  - I have tested the navigation bar, header, about us, classes & fees, gallery and contact us text are all readible 
     and easy to understand.
  
-  - I can confirm that the form works, requiring entry in every field, will only accept email address in email field, 
+  - The form works, requiring entry in every field, will only accept email address in email field, 
     the submit and reset buttons work. 
 
+
+----
 
 # Bugs
 
 ### Fixed Bugs
 
-  - copy to go here.
+  - Fixed the navbar drop-down menu items.
 
-  - copy to go here.
+  - Fixed the form position next to the address section.
   
-  - copy to go here.
+  - Resolved the images in the Gallery to be responsive.
+
+  - Fixed the Favicon links in the head of our html files.
 
 ### Unfixed Bugs
 
-  copy to go here.
+  - A score of 47 for the Gallery page was generated for the Performance Report as it picked up issues which I did not get to resolve.
 
+  ![gallery](assets/images/gallery_diagnotics_bp.webp)
+
+  - A score of 74 for the Contact page was generated for the Best Practices Report as it picked up issues which was also not resolved.
+
+  ![contact](assets/images/contact_issues_copy.webp)
+
+
+----
 
 # Validator testing
 
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://www.w3.org/) to validate all of my HTML files.
+
+![homescreenshot](assets/images/w3c_html_validator_homepage.webp)
+
+##### Pass: No Errors
+
+
+![aboutscreenshot](assets/images/w3c_html_validator_aboutpage.webp)
+
+##### Pass: No Errors
+
+
+![classesscreenshot](assets/images/w3c_html_validator_classespage.webp)
+
+##### Pass: No Errors
+
+
+![galleryscreenshot](assets/images/w3c_html_validator_gallerypage.webp)
+
+##### Pass: No Errors
+
+![contactscreenshot](assets/images/w3c_html_validator_contactpage.webp)
+
+##### Pass: No Errors
 
 
 
@@ -259,9 +339,36 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 ##### Pass: No Errors
 
 
+## Lighthouse Audit
 
-  - Accesibility
-    * I can confirm that the colors and fonts used are easily readible and accessible by running through Lighthouse in devtools.
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+#### Home page:
+
+![homepage](assets/images/accessibility_homepage.webp)
+
+
+#### About Us page:
+
+![aboutpage](assets/images/accessibility_aboutpage.webp)
+
+
+#### Classes & Fees page:
+
+![classespage](assets/images/accessibility_classespage.webp)
+
+
+#### Gallery page:
+
+![gallerypage](assets/images/accessibility_gallerypage.webp)
+
+
+#### Contact Us page:
+
+![contactpage](assets/images/accessibility_contactpage.webp)
+
+
+----
 
 # Deployment
 
@@ -278,7 +385,10 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
     - Under the Github-Pages Deployments section, click on the link to the completed website.
 
 
-The live link can be found here: 
+The live link can be found [here:](https://reubes77.github.io/nautilus-swim-academy/)
+
+
+----
 
 # Credits
 
@@ -289,6 +399,7 @@ The live link can be found here:
   2. The code for the Navbar sourced from the Love Running Project.
 
   3. The code to make the social media links work sourced from the Love Running Project.
+
 
 ### Media
 

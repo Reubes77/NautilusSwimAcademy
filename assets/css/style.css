@@ -223,7 +223,7 @@ nav ul li a:hover {
 }
 
 #about-text {
-    color:#222831;
+    color: #222831;
 }
 
 #about-para {
@@ -759,10 +759,10 @@ footer {
         }
 
         @media (min-width: 1200px) {
-        #gallery-images {
-            column-gap: 60px;
-            margin: 0 30px;
-        }
+            #gallery-images {
+                column-gap: 60px;
+                margin: 0 30px;
+            }
         }
     }
 }
