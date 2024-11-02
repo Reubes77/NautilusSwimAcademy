@@ -134,7 +134,7 @@ I used Balsamiq to create a wireframe of the website.
 
 ![Homepage](assets/images/homepage_device_copy.webp)   
 
-  1. Header contains a strong visual of a swimmer to excite the user into exploring the website.
+  1. The header contains a strong visual of a swimmer to excite the user into exploring the website.
  
   2. The header image leads the user to scroll to read more about the benefits of swimming.
  
@@ -165,7 +165,7 @@ I used Balsamiq to create a wireframe of the website.
 
 #### Classes section
 
-![Classes](assets/images/screenshot_classes_page.webp)
+![Classes](assets/images/classes_section.webp)
 
   1. The page has a header image which depicts a coach and student reinforcing the hands-on approach of the coaches 
     promoting the sense of competence. I used the Blue background color to push the sense of competence through color 
@@ -182,7 +182,7 @@ I used Balsamiq to create a wireframe of the website.
 
 ![Fees](assets/images/fees_section.webp)
 
-  1. The fees section allows the user to see the three categories available at the Academy.
+  1. The fees section allows the user to see the three swim categories available at the Academy.
 
   2. It also contains the fees associated with each category.
 
